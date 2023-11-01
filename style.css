@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(170, 135, 170);
+}
+
+#nav {
+    background-color: rgb(255, 196, 247);
+}
+
+.carousel-inner {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 60%;
+}
+
+.carousel-item {
+    transition: transform .5s cubic-bezier(0.45, 0.05, 0.09, 0.92);
+}
+
+h5,
+p {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.533);
+}
+
+/* ---------------------- LAYOUT NOTICIAS ------------------------------------------------------------------- */
+
+.card {
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    --bs-card-border-color: 0;
+    margin-bottom: 10%;
+}
+
+.card-img-top {
+    width: 350px;
+    height: 350px;
+}
+
+/* RODAPE */
+.rodaps {
+    background-color: grey;
+    height: 100px;
+}
+
+#rodapstext {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.274);
+}
